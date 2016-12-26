@@ -20,10 +20,17 @@ module.exports = StyleSheet.create({
     padding: 5,
     //alignItems: "center",
   },
-  card: {
+  cardPost: {
     backgroundColor: "#FFFFFF",
     margin: 5,
     //padding: 5,
+    flex: 1,
+    elevation: 2
+  },
+  cardSettings: {
+    backgroundColor: "#FFFFFF",
+    margin: 5,
+    padding: 10,
     flex: 1,
     elevation: 2
   },
@@ -39,7 +46,7 @@ module.exports = StyleSheet.create({
   },
   buttonContainer: {
     backgroundColor: "#f9f9f9",
-    padding: 10,
+    padding: 4,
     flexDirection: "row-reverse"
   },
   icon: {
@@ -64,5 +71,22 @@ module.exports = StyleSheet.create({
   },
   voteCount: {
     paddingTop: 5
+  },
+
+  drawer: {
+    flex: 1,
+    backgroundColor: "#FFFFFF"
+  },
+  drawerButtonText: {
+    padding: 10
+  },
+
+  header: {
+    fontSize: 16,
+    marginBottom: 10
+  },
+  settingsRow: {
+    paddingTop: 10,
+    paddingBottom: 10
   }
 });
